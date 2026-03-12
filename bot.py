@@ -12,7 +12,7 @@ logging.basicConfig(format="%(asctime)s - %(name)s - %(levelname)s - %(message)s
 logger = logging.getLogger(__name__)
 
 TOKEN = "8676390709:AAG89EroTpMrwLPJWR73sbADnBqmXP66xCo"
-OPENAI_API_KEY = "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"
+OPENAI_API_KEY = "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"
 DB_FILE = "assistant.db"
 
 client = AsyncOpenAI(api_key=OPENAI_API_KEY)
