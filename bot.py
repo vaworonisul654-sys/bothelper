@@ -11,7 +11,7 @@ from openai import AsyncOpenAI
 logging.basicConfig(format="%(asctime)s - %(name)s - %(levelname)s - %(message)s", level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-TOKEN = "8676390709:AAE5405OmIPE8paqqBds-dGQCGGh94eEkyM"
+TOKEN = "8676390709:AAG89EroTpMrwLPJWR73sbADnBqmXP66xCo"
 OPENAI_API_KEY = "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"
 DB_FILE = "assistant.db"
 
